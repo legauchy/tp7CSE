@@ -71,9 +71,8 @@ int lire(void *p, unsigned int taille, unsigned int nbelem, FICHIER *f) {
 	return elem_lu;
 }
 
-int flush(FICHIER *f) {
+void flush(FICHIER *f) {
 
-	return 0;
 }
 
 int ecrire(const void *p, unsigned int taille, unsigned int nbelem, FICHIER *f) {
