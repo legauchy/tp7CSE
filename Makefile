@@ -1,6 +1,6 @@
 CC=gcc
-CFLAGS=-Wall -O
-LDFLAGS=-pthread
+CFLAGS=-Wall -O0 -g
+LDFLAGS=
 EXEC=test
 
 all: $(EXEC)
